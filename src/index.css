@@ -1,0 +1,151 @@
+*{ 
+  box-sizing: border-box;
+}
+
+html{
+  margin:0;  padding:0; 
+ }
+body{
+  margin:0;   
+  background:url(C:\Users\Sumathi\reacttut\updatedeventform\src\components\confetti.jpg);
+  background-size: 100%;
+  background-position:600% ;
+  background-repeat: no-repeat;
+  display:flex;
+ }
+
+#form{
+  padding: 5px;
+  background:rgba(10, 1, 5, 0.55);
+  color:#fff;
+  height: 677px;
+  width: 5000px;
+}
+
+  
+.container{
+      box-sizing:border-box;
+      justify-content:center;
+      height:auto;
+      width:40%;
+      background:rgba(10, 1, 5, 0.9);
+      color:#fff;
+      top:50%;
+      left:50%;
+      position:absolute;
+      transform:translate(-50%,-50%);
+      font-family: Arial, Helvetica, sans-serif;;
+      padding:5px;
+      border-radius: 50px;
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+  
+.info{       
+  
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.form-group{
+  margin:0px 10px 15px;
+  padding:0;
+  font-weight:bold;
+}
+
+.full input{
+  width:100%;
+  border:2px solid #f0f0f0;
+  border-radius:5px;
+  display:block;
+
+  border:none;
+  border-bottom:1px solid #fff;
+  background:transparent;
+  outline:none;
+  color:#fff;
+  font-size:16px;
+}
+
+.diff input{
+  border:2px solid #f0f0f0;
+  border-radius:5px;
+  border:none;
+  border-bottom:1px solid #fff;
+  background:transparent;
+  outline:none;
+  color:#fff;
+  font-size:16px;
+}
+
+.form-group input:focus{
+  outline:0;
+    
+}
+
+
+#event{
+  padding:2px;
+}
+
+
+.select, .singing, .dance, .skit, .fashionshow, .bandbattle{
+  background-color:black; 
+  color:white
+}
+
+button{
+  width:70px;
+  padding:7px;
+  margin-right:10px;
+  background: #fff;
+  color: rgb(22, 17, 14);
+  border: solid 2.5px rgb(252, 251, 250);
+  border-radius: 33px;
+  cursor: pointer;
+  transition:  all .38s ease-in-out;
+}
+
+button:hover{
+  background: rgb(125, 9, 138);
+  color: #fff;
+}
+
+.button-group{
+  display: flex;
+  justify-content: center;
+  margin-right: 1px;
+
+}
+::placeholder{
+  color:rgb(73, 69, 69);
+}
+table tr td{
+  border: solid 1px #eee;
+  padding: 10px;
+} 
+
+
+table{
+  width:600px;
+  height:100px;
+  background:rgba(10, 1, 5, 0.8);
+  color:#fff;
+  top:50%;
+  left:50%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding:0px 10px;
+  font-family: Arial, Helvetica, sans-serif;;
+  padding:50px;
+  border-radius: 15px;
+
+}
+input{
+  width: max-content;
+}
